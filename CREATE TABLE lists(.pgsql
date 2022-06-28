@@ -1,0 +1,5 @@
+CREATE TABLE lists(
+    listID SERIAL PRIMARY KEY,
+    pID INT REFERENCES people NOT NULL,
+    listName VARCHAR(50) NOT NULL
+);

@@ -1,0 +1,4 @@
+CREATE TABLE items(
+itemID SERIAL PRIMARY KEY,
+itemName VARCHAR(50) NOT NULL
+);
